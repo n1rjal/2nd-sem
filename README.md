@@ -8,11 +8,9 @@ Based on my 2nd semester college works, I have decided to **keep track of files*
 
 #### Books
 
-My books folder<br>
 [My Book Folder](https://drive.google.com/drive/folders/1XCocxJglY74jTA4mxbsibmLM9Jf2pohj?usp=sharing)
 
-#### Notes:
+#### 2nd Semester notes:
 
-2nd semester notes:
 [GyanKuber](https://drive.google.com/drive/folders/113OzZARDJhQNPGrGIPgk5VSWmJHojaqR)<br>
 [Senior Notes](https://drive.google.com/drive/u/0/folders/1IWZBcks2bTY7ujwVK1eJ3dHvmPWssZ0S?fbclid=IwAR0uenTi5mA3LrxzUgMp1Zs3Qym619e8kPwbB2JKSFFDvPGssa60A0dnqI4)
