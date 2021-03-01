@@ -1,4 +1,5 @@
 
+// Analyse this program and use " Virtual " Keyword to avoid diamond problem.
 
 #include<iostream> 
 using namespace std; 
@@ -31,6 +32,6 @@ public:
 
 int main() { 
 	TA ta1(30); 
-} 
+}
 
 

@@ -1,7 +1,6 @@
 #include<iostream> 
 using namespace std; 
 
-
 // Analyse this program and use " Virtual " Keyword to avoid diamond problem.
 class Person
 {
@@ -16,16 +15,15 @@ public:
         cout << "Person default constructor called" <<endl;
     }
 };
-class Faculty : virtual public Person
+class Faculty :  public Person //2
 {
     //data members of faculty
 public:
-    Faculty(int x) : Person(x)
-    {
+    Faculty(int x) : Person(x) {
         cout << "Faculty" << x << "Called" << endl;
     }
 };
-class Student : virtual public Person
+class Student :  public Person //3 
 {
     //data member of faculty
 public:
@@ -45,5 +43,4 @@ public:
 int main()
 {
     TA ta1(30);
-    return 0;
 }

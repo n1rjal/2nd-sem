@@ -8,6 +8,7 @@ class student //educational background
     private:
     string school; //name of school or university
     string degree; //highest degree earned
+    
     public:
     void getedu()
     {
@@ -32,8 +33,10 @@ class employee
     public:
     void getdata()
     {
-        cout << "\n Enter last name:" ; cin >> name;
-        cout << "“ Enter number: “"; cin >> number;
+        cout << "\n Enter last name:" ; 
+        cin >> name;
+        cout << "“ Enter number: “";
+        cin >> number;
     }
     void putdata() const
     {
