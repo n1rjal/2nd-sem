@@ -31,8 +31,6 @@ int main(){
     concatinate(destination,source);  
 }
  
- 
- 
 void concatinate(string destinationString,string sourceString){
     String destination(destinationString);
     String source(sourceString);
