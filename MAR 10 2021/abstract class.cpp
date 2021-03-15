@@ -3,9 +3,7 @@ using namespace std;
 
 class Base{
     public:
-    virtual void show(){ // TODO: MAKE this virtual
-        cout << "Base \n";
-    }
+    virtual void show() = 0;
 };
 
 class Derv1:public Base{
@@ -15,7 +13,6 @@ class Derv1:public Base{
     }
 };
 
-
 class Derv2:public Base{
     public: 
     void show(){
@@ -23,14 +20,14 @@ class Derv2:public Base{
     }
 };
 
-
 int main(){
+    // Base bad;
     Derv1 dv1;
     Derv2 dv2;
-    Base *ptr;
-    ptr = &dv1;
-    ptr->show();
-    ptr = &dv2;
-    ptr->show();
+    Base *ptr[2];
+    ptr[0] = &dv1;
+    ptr[1] = &dv2;
+    ptr[0]->show();
+    ptr[1]->show();
     return 0;
 }
