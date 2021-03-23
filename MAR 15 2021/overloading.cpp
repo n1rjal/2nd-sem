@@ -25,7 +25,6 @@ int main(){
     a2=a1;
     cout << "\n a2 = ";
     a2.display();
-
     alpha a3= a2;
     cout << "\n a3 = "; a3.display();
     cout << endl;
