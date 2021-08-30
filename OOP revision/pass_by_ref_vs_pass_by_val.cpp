@@ -2,10 +2,10 @@
 using namespace std;
 
 // pass by reference
-void swap_numbers(int &a, int &b){
-    int temp = a;
-    a = b;
-    b = temp; 
+void swap_numbers(int *a, int *b){
+    int temp = *a;
+    *a = *b;
+    *b = temp; 
 }
 
 
@@ -17,7 +17,7 @@ int main(){
     cout << "Before swapping "<<endl;
     cout << "a= "<<a<<" b= "<<b<<endl;
 
-    swap_numbers(a,b);
+    swap_numbers(&a,&b);
 
     cout << "After swapping "<<endl;
     cout << "a= "<<a<<" b= "<<b<<endl;
