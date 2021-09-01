@@ -15,7 +15,7 @@ class Height{
             cout << this->feet << " ft "<< this->inches<<" in" <<endl;
         }
 
-        Height operator+(const Height &h2){
+        Height operator +  (const Height &h2){
             float newFeet, newInches;
             newFeet = this->feet + h2.feet;
             newInches = this->inches + h2.inches;
