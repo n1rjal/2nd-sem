@@ -16,6 +16,12 @@ class Complex{
         void setimag(int i){
             this->imag = i;
         }
+        Complex operator + (Complex c){
+            int new_real = this->real + c.real;
+            int new_imag = this->imag + c.imag;
+            Complex new_complex(new_real, new_imag);
+            return new_complex;
+        } 
 };
 
 void setName(Complex *C){
@@ -24,7 +30,10 @@ void setName(Complex *C){
 
 int main(){
     Complex c1(1,2);
+    Complex c2(10,12);
+    
     c1.print();
-    setName(&c1);
-    c1.print();
+    c2.print();
+    Complex c3 = c1 + c2; 
+    c3.print();
 }

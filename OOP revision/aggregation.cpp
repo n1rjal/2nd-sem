@@ -22,7 +22,6 @@ class User{
         void print(){
             cout << this->name << " "<< this->address<<endl;
         }
-
 };
 
 class Cart{
