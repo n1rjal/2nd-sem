@@ -6,6 +6,7 @@ class Complex{
         int real;
         int imag;
     public:
+        
         Complex(int, int);
         void print();
 };
